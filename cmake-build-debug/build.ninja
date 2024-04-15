@@ -109,6 +109,12 @@ build CMakeFiles/luyentap.dir/Bai10.c.obj: C_COMPILER__luyentap_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\luyentap.dir
   OBJECT_FILE_DIR = CMakeFiles\luyentap.dir
 
+build CMakeFiles/luyentap.dir/Bai11.c.obj: C_COMPILER__luyentap_unscanned_Debug C$:/Git/luyentap/Bai11.c || cmake_object_order_depends_target_luyentap
+  DEP_FILE = CMakeFiles\luyentap.dir\Bai11.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\luyentap.dir
+  OBJECT_FILE_DIR = CMakeFiles\luyentap.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target luyentap
@@ -117,7 +123,7 @@ build CMakeFiles/luyentap.dir/Bai10.c.obj: C_COMPILER__luyentap_unscanned_Debug 
 #############################################
 # Link the executable luyentap.exe
 
-build luyentap.exe: C_EXECUTABLE_LINKER__luyentap_Debug CMakeFiles/luyentap.dir/Bai01.c.obj CMakeFiles/luyentap.dir/Bai02.c.obj CMakeFiles/luyentap.dir/Bai03.c.obj CMakeFiles/luyentap.dir/Bai04.c.obj CMakeFiles/luyentap.dir/Bai05.c.obj CMakeFiles/luyentap.dir/Bai06.c.obj CMakeFiles/luyentap.dir/Bai07.c.obj CMakeFiles/luyentap.dir/Bai08.c.obj CMakeFiles/luyentap.dir/Bai09.c.obj CMakeFiles/luyentap.dir/Bai10.c.obj
+build luyentap.exe: C_EXECUTABLE_LINKER__luyentap_Debug CMakeFiles/luyentap.dir/Bai01.c.obj CMakeFiles/luyentap.dir/Bai02.c.obj CMakeFiles/luyentap.dir/Bai03.c.obj CMakeFiles/luyentap.dir/Bai04.c.obj CMakeFiles/luyentap.dir/Bai05.c.obj CMakeFiles/luyentap.dir/Bai06.c.obj CMakeFiles/luyentap.dir/Bai07.c.obj CMakeFiles/luyentap.dir/Bai08.c.obj CMakeFiles/luyentap.dir/Bai09.c.obj CMakeFiles/luyentap.dir/Bai10.c.obj CMakeFiles/luyentap.dir/Bai11.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\luyentap.dir

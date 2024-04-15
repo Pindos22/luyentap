@@ -14,4 +14,5 @@ add_executable(luyentap
         Bai08.c
         Bai09.c
         Bai10.c
+        Bai11.c
 )
