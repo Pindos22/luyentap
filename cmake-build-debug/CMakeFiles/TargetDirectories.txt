@@ -1,0 +1,3 @@
+C:/Git/luyentap/cmake-build-debug/CMakeFiles/luyentap.dir
+C:/Git/luyentap/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Git/luyentap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
