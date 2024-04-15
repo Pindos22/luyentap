@@ -1,0 +1,23 @@
+BEGIN
+    INPUT a, b, c
+    IF a = 0
+        IF b = 0
+            IF c = 0
+                DISPLAY "Phuong trinh co vo so nghiem!"
+            ELSE
+                DISPLAY "Phuong trinh vo nghiem!"
+            END IF
+        ELSE
+            DISPLAY "Phuong trinh co nghiem duy nhat la: -c/b"
+        END IF
+    ELSE
+        d = b^2 - 4*a*c
+        IF d > 0
+            DISPLAY "Phuong trinh vo nghiem!!!"
+        ELSE IF d = 0
+            DISPLAY "Phuong trinh co nghiem kep la: -b / (2 * a)
+        ELSE
+            DISPLAY "Phuong trinh co 2 nghiem phan biet la: (-b +  √(d)) / (2 * a), (-b -  √(d)) / (2 * a)
+        END IF
+    END IF
+END
